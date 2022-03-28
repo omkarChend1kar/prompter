@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "prompter_oc",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2022-03-28T12:16:33.617017Z",
+  "generator": "pub",
+  "generatorVersion": "2.16.1"
+}

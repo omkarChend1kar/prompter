@@ -1,0 +1,5 @@
+name: prompter_oc
+version: 0.0.1
+Description: Library to create CLI wizards
+environment:
+  sdk: '>=2.10.0 <3.0.0'
