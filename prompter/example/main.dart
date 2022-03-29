@@ -15,9 +15,6 @@ void main() {
   ];
 
   final prompter = new Prompter();
-  // stdout.writeln(prompter.askBinary('Do you want to learn Flutter ?'));
-  stdout
-      .writeln(prompter.askMultiple('What is your favourite color ?', option));
-  // terminal.printOptions(option);
-  // terminal.collectInput();
+  // bool answer= prompter.askBinary('Do you want to learn Flutter ?');
+  String colorCode = prompter.askMultiple('Select the color', option);
 }
