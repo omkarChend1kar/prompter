@@ -1,5 +1,6 @@
 name: prompter_oc
 version: 0.0.1
-Description: Library to create CLI wizards
+description: Library to create CLI wizards
+repository: https://github.com/omkarChend1kar/prompter/tree/main/prompter
 environment:
   sdk: '>=2.10.0 <3.0.0'
