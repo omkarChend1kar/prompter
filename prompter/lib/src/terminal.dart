@@ -1,6 +1,8 @@
 import 'dart:io';
+import 'package:prompter_oc/src/option.dart';
 
 class Terminal {
+  const Terminal();
   void printPrompt(String prompt) {
     stdout.writeln(prompt);
   }
@@ -13,7 +15,15 @@ class Terminal {
     }
   }
 
-  String collectInput(){
+  void printOptions(options) {
+    options.asMap().forEach((index, value) {
+      stdout.writeln('($index): ${value.label}');
+    });
+    stdout.writeln('Enter a choice : ');
+    stdout.write('> ');
+  }
+
+  String collectInput() {
     return stdin.readLineSync();
   }
 }
